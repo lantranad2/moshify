@@ -800,3 +800,41 @@ a {
     order: 2;
   }
 }
+
+/* Block showcase */
+
+.block-showcase__imgage {
+  width: 100%;
+}
+
+.block-showcase .media__title {
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.block-showcase .media__text {
+  font-size: 2rem;
+  color: #7b858b;
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase .grid--1x2 {
+    gap: 4rem;
+    margin-top: 4rem;
+  }
+  .block-showcase .media__title {
+    font-size: 1.8rem;
+  }
+
+  .block-showcase .media__text {
+    font-size: 1.8rem;
+  }
+
+  .block-showcase .list {
+    margin-top: 2rem;
+  }
+
+  .block-showcase li:not(:first-of-type) {
+    margin-top: 3rem;
+  }
+}
