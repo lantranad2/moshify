@@ -645,8 +645,11 @@ a {
 
 /* Navigation Bar */
 
-.nav {
+.header {
   background: #000;
+}
+.nav {
+  /* background: #000; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
